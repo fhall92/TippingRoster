@@ -1,0 +1,92 @@
+# Visual Studio / Rider / IDE
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+
+# Build outputs
+bin/
+obj/
+out/
+artifacts/
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Rider caches
+.idea/
+.idea_modules/
+*.iml
+
+# Test results, coverage
+TestResults/
+coverage/
+coverage*.xml
+*.coverage
+*.trx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dotnet user secrets
+secrets.json
+
+# Publish / packaging
+publish/
+*.zip
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+# Vite / env
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Frontend local cache
+/.cache/
+.cache/
+
+# Frontend generated
+/tipping-roster-ui/dist
+/tipping-roster-ui/node_modules
+
+# IDE specific
+*.sublime-workspace
+*.sublime-project
+
+# Misc
+*.db
+*.sqlite
+*.sqlite3
+
+# Rider / ReSharper
+.idea/
+*.DotSettings.user
+
+# Ignore compiled assets
+*.class
+*.exe
+*.dll
+*.pdb
+
+# Ignore locks and temp
+package-lock.json
+.yarn-integrity
